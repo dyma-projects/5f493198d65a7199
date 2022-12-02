@@ -1,33 +1,27 @@
-# Projet 4 => chapitre 6
+# Projet4
 
-Dans ce projet nous allons nous intéresser aux directives ! Vous allez apprendre à créer votre propre directive qui va 
-vous permettre de faire quelque chose de sympa !
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.1.
 
-(Pensez à regarder dans le exercice-1.component.ts il y a un indice sur la facon d'écouter un évènement sur la fenêtre principale).
+## Development server
 
-Bon courage :)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Lancer le projet
+## Code scaffolding
 
-Pour lancer l'application il faut d'abord installer les dépendances avec npm : 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-`npm i`
+## Build
 
-Puis lancer le serveur de développement avec : 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-`ng serve`
+## Running unit tests
 
-## Objectifs
-- [ ] Créer une directive dans le dossier du composant exercice-1 avec le nom : color.directive.ts.
-- [ ] Posititioner la directive sur le paragraphe du composant exercice-1.
-- [ ] Quand l'utilisateur appui sur une touche directionnelle ( les flèches du clavier ), la couleur du texte du paragraphe sur lequel est positioné la directive 'color' doit changer.
-- [ ] Chaque flèche doit correspondre à une couleur.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-      
-## Avant de finir le projet
+## Running end-to-end tests
 
-Pensez à pusher votre travail avant de cliquer sur 'terminer le projet'.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Besoin d'aide ?
+## Further help
 
-Demandez nous dans le chat on vous aidera :)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
